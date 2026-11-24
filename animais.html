@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais para Adoção | PetMatch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--xx Cabeçalho do site xx-->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">🐶 petmatch</a>
+
+            <nav class="nav">
+                <a href="index.html">ㅤInícioㅤ</a>
+                <a href="animais.html" class="ativo">ㅤAnimaisㅤ</a>
+                <a href="adocao.html">ㅤComo adotarㅤ</a>
+                <a href="orientacoes.html">ㅤOrientaçõesㅤ</a>
+            </nav>
+
+            <a href="animais.html" class="btn">Encontrar um pet</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!--xx Apresentação do catálogo xx-->
+        <section class="catalogo-intro">
+            <div class="container">
+                <span class="subtitle">UM NOVO AMIGO TE ESPERA</span>
+                <h1>Encontre seu novo <span>melhor amigo.</span></h1>
+                <p>
+                    Conheça os animais que estão procurando um lar cheio de
+                    carinho. Quem sabe seu próximo companheiro não está aqui?
+                </p>
+            </div>
+        </section>
+
+        <!--xx Filtros do catálogo xx-->
+        <section class="catalogo">
+            <div class="container">
+
+                <div class="filtros">
+                    <div class="filtro-item">
+                        <label for="especie">Espécie</label>
+                        <select id="especie">
+                            <option>Todos os animais</option>
+                            <option>Cachorros</option>
+                            <option>Gatos</option>
+                            <option>Guaxinins</option>
+                            <option>Coelhos</option>
+                            <option>Pássaros</option>
+                        </select>
+                    </div>
+
+                    <div class="filtro-item">
+                        <label for="porte">Porte</label>
+                        <select id="porte">
+                            <option>Todos os portes</option>
+                            <option>Pequeno</option>
+                            <option>Médio</option>
+                            <option>Grande</option>
+                        </select>
+                    </div>
+
+                    <div class="filtro-item">
+                        <label for="idade">Idade</label>
+                        <select id="idade">
+                            <option>Todas as idades</option>
+                            <option>Filhote</option>
+                            <option>Adulto</option>
+                            <option>Idoso</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="catalogo-titulo">
+                    <div>
+                        <h2>Conheça nossos amiguinhos</h2>
+                        <p>Histórias esperando por um novo começo.</p>
+                    </div>
+                    <span>8 animais cadastrados</span>
+                </div>
+
+                <!--xx Lista de animais xx-->
+                <div class="animais-grid">
+
+                    <a href="perfil.html" class="animal-card">
+                        <img src="img/WhatsApp Image 2026-11-17 at 23.59.55.jpeg" alt="Gato José">
+                        <div class="animal-info">
+                            <span class="status disponivel">Disponível</span>
+                            <h3>José</h3>
+                            <p>Gato Vira-lata • 2 anos</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="max.html" class="animal-card">
+                        <img src="img/corgi.jpg" alt="Cachorro Max">
+                        <div class="animal-info">
+                            <span class="status disponivel">Disponível</span>
+                            <h3>Max</h3>
+                            <p>Cachorro • 1 ano</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="guaxas.html" class="animal-card">
+                        <img src="img/97e58ac98147bcc1ec98968140f51f54.jpg" alt="Um Guaxinim">
+                        <div class="animal-info">
+                            <span class="status reservado">Reservado</span>
+                            <h3>Guaxas</h3>
+                            <p>Guaxinim • 3 anos</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="clove.html" class="animal-card">
+                        <img src="img/istockphoto-508030340-612x612.jpg" alt="Gata Clove">
+                        <div class="animal-info">
+                            <span class="status disponivel">Reservado</span>
+                            <h3>Clove</h3>
+                            <p>Gata Laranja • 2 meses</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="chico.html" class="animal-card">
+                        <img src="img/calopsita.jpg" alt="calopsita chicó">
+                        <div class="animal-info">
+                            <span class="status disponivel">Disponível</span>
+                            <h3>Chicó</h3>
+                            <p>Calopsita • 11 meses</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="pigmeu.html" class="animal-card">
+                        <img src="img/7e084793455977b224e5ee6312f65841.jpg" alt="Cachorro Pigmeu">
+                        <div class="animal-info">
+                            <span class="status disponivel">Disponível</span>
+                            <h3>Pigmeu</h3>
+                            <p>Griffon Belga • 2 anos</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="maril.html" class="animal-card">
+                        <img src="img/frajola2.jfif" alt="Gata Nina">
+                        <div class="animal-info">
+                            <span class="status adotado">Adotado</span>
+                            <h3>Maril</h3>
+                            <p>Gata • 2 anos</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                    <a href="pacoca.html" class="animal-card">
+                        <img src="img/WhatsApp Image 2026-11-18 at 00.00.34.jpeg" alt="Coelho">
+                        <div class="animal-info">
+                            <span class="status adotado">Adotado</span>
+                            <h3>Paçoca</h3>
+                            <p>Coelha • 3 anos</p>
+                            <span class="animal-local">Poços de Caldas - MG</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--xx Chamada para adoção xx-->
+        <section class="catalogo-final">
+            <div class="container">
+                <h2>Não encontrou seu companheiro?</h2>
+                <p>
+                    Continue acompanhando nosso catálogo. Novos animais
+                    podem chegar a qualquer momento!
+                </p>
+                <a href="adocao.html" class="btn">Saiba como adotar</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>🐶 petmatch</h3>
+
+                <p>
+                    Conexões que mudam vidas.
+                    Encontre um companheiro e descubra
+                    a alegria da adoção responsável.
+                </p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+
+                <a href="index.html">Início</a>
+                <a href="animais.html">Animais</a>
+                <a href="adocao.html">Como adotar</a>
+                <a href="orientacoes.html">Orientações</a>
+            </div>
+
+            <div>
+                <h3>Contato</h3>
+
+                <p>Poços de Caldas - MG</p>
+                <p>contato@petmatch.com</p>
+                <p>lucasbatista@petmatch.com</p>
+                <p>alanagabi@petmatch.com</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 PetMatch - Plataforma de Adoção Responsável.
+        </div>
+
+    </footer>
+
+</body>
+</html>

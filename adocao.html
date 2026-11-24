@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Adotar | PetMatch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">🐶 petmatch</a>
+
+            <nav class="nav">
+                <a href="index.html">ㅤInícioㅤ</a>
+                <a href="animais.html">ㅤAnimaisㅤ</a>
+                <a href="adocao.html" class="ativo">ㅤComo adotarㅤ</a>
+                <a href="orientacoes.html">ㅤOrientaçõesㅤ</a>
+            </nav>
+
+            <a href="animais.html" class="btn">Encontrar um pet</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Apresentação -->
+        <section class="adocao-intro">
+            <div class="container">
+                <span class="subtitle">UM NOVO COMEÇO</span>
+                <h1>Adotar é um ato de <span>amor e responsabilidade.</span></h1>
+
+                <p>
+                    Dar um lar a um animal é uma decisão importante.
+                    Conheça nossas etapas e descubra como começar essa história.
+                </p>
+
+                <a href="#formulario-adocao" class="btn">
+                    Quero demonstrar interesse
+                </a>
+            </div>
+        </section>
+
+        <!-- Etapas da adoção -->
+        <section class="adocao-etapas">
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="subtitle">SIMPLES E TRANSPARENTE</span>
+                    <h2>Como funciona a adoção?</h2>
+                    <p>Conheça as etapas para receber um novo companheiro.</p>
+                </div>
+
+                <div class="etapas-grid">
+
+                    <div class="etapa-card">
+                        <span class="etapa-numero">01</span>
+                        <h3>Escolha seu pet</h3>
+                        <p>
+                            Conheça os animais disponíveis e encontre aquele
+                            que combina com sua rotina e seu estilo de vida.
+                        </p>
+                    </div>
+
+                    <div class="etapa-card">
+                        <span class="etapa-numero">02</span>
+                        <h3>Preencha o formulário</h3>
+                        <p>
+                            Conte um pouco sobre você, sua casa e sua
+                            experiência com animais.
+                        </p>
+                    </div>
+
+                    <div class="etapa-card">
+                        <span class="etapa-numero">03</span>
+                        <h3>Aguarde o contato</h3>
+                        <p>
+                            A equipe responsável poderá entrar em contato
+                            para conversar e avaliar as condições da adoção.
+                        </p>
+                    </div>
+
+                    <div class="etapa-card">
+                        <span class="etapa-numero">04</span>
+                        <h3>Prepare o novo lar</h3>
+                        <p>
+                            Com tudo organizado, você poderá se preparar
+                            para receber seu novo companheiro.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário -->
+        <section class="formulario-adocao" id="formulario-adocao">
+            <div class="container formulario-layout">
+
+                <div class="formulario-texto">
+                    <span class="subtitle">VAMOS COMEÇAR?</span>
+                    <h2>Conte um pouco sobre você.</h2>
+
+                    <p>
+                        Preencha os campos ao lado para demonstrar seu
+                        interesse em adotar. Essas informações ajudam a
+                        entender melhor o lar que o animal poderá receber.
+                    </p>
+
+                    <div class="formulario-aviso">
+                        <strong>Importante:</strong>
+                        <p>
+                            A adoção exige compromisso, tempo, cuidados
+                            veterinários e responsabilidade durante toda
+                            a vida do animal.
+                        </p>
+                    </div>
+                </div>
+
+                <form class="form-adocao" action="#" method="get">
+
+                    <h3>Formulário de interesse</h3>
+
+                    <div class="campo-form">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome"
+                            placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="corinthians@exemplo.com" required>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone"
+                            placeholder="(67) 67677-6767" required>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="animal">Qual animal deseja adotar?</label>
+                        <select id="animal" name="animal" required>
+                            <option value="">Selecione um animal</option>
+                            <option value="josé">José</option>
+                            <option value="max">Max</option>
+                            <option value="guaxas">Guaxas</option>
+                            <option value="clove">Clove</option>
+                            <option value="chico">Chicó</option>
+                            <option value="pigmeu">Pigmeu</option>
+                            <option value="maril">Maril</option>
+                            <option value="pacoca">Paçoca</option>
+                            <option value="outro">Ainda não escolhi</option>
+                        </select>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="moradia">Onde você mora?</label>
+                        <select id="moradia" name="moradia" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="casa">Casa</option>
+                            <option value="apartamento">Apartamento</option>
+                            <option value="fazenda">Fazenda</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="experiencia">Já teve animais de estimação?</label>
+                        <select id="experiencia" name="experiencia" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="mensagem">Por que deseja adotar?</label>
+                        <textarea id="mensagem" name="mensagem" rows="4"
+                            placeholder="Conte um pouco sobre sua motivação..."></textarea>
+                    </div>
+
+                    <label class="campo-termo">
+                        <input type="checkbox" name="responsabilidade" required>
+                        <span>
+                            Estou ciente de que a adoção exige responsabilidade
+                            e compromisso com o bem-estar do animal.
+                        </span>
+                    </label>
+
+                    <button type="submit" class="btn">
+                        Enviar demonstração de interesse
+                    </button>
+
+                    <p class="form-observacao">
+                        Formulário demonstrativo para fins acadêmicos.
+                        Os dados não serão enviados a uma instituição.
+                    </p>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- Chamada final -->
+        <section class="adocao-final">
+            <div class="container">
+                <h2>Um lar pode mudar uma vida.</h2>
+                <p>
+                    A adoção responsável transforma a vida do animal
+                    e também de quem escolhe acolhê-lo.
+                </p>
+
+                <a href="animais.html" class="btn">
+                    Conhecer os animais
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>🐶 petmatch</h3>
+
+                <p>
+                    Conexões que mudam vidas.
+                    Encontre um companheiro e descubra
+                    a alegria da adoção responsável.
+                </p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+
+                <a href="index.html">ㅤInícioㅤ</a>
+                <a href="animais.html">ㅤAnimaisㅤ</a>
+                <a href="adocao.html">ㅤComo adotarㅤ</a>
+                <a href="orientacoes.html">ㅤOrientaçõesㅤ</a>
+            </div>
+
+            <div>
+                <h3>Contato</h3>
+
+                <p>Poços de Caldas - MG</p>
+                <p>contato@petmatch.com</p>
+                <p>lucasbatista@petmatch.com</p>
+                <p>alanagabi@petmatch.com</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 PetMatch - Plataforma de Adoção Responsável.
+        </div>
+
+    </footer>
+</body>
+</html>
